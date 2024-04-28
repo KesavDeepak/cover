@@ -31,9 +31,78 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```python
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .hi{
+                background-color: white;
+                border:2px solid black; 
+                height: 700px;
+                width:600px;
+                margin-left: 30%;
+                text-align:center;
+                border-radius: 15px;
+            }
+            h2{
+                border-bottom: 4px solid brown;
+                
+            }
+            h1{
+                color:gold;
+                font-size: 45px;
 
+            }
+            h2{
+                color:red;      
+            }
+            p{
+                margin-top: 6%;
+                font-size: 25px;
+                
+                
+            }
+            .k{
+                width:600px;
+            }
+            .p{
+                width:100px;
+                border-radius: 25%;
+                margin-top: -400px;
+                margin-left: 500px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class = "hi">
+            <h1>Lord of Rings</h1>
+            <h2>The Final Part</h2>
+            
+            <img src="image.png" alt="" class = "k">
+            <img src="profile.jpg" alt="" class = "p">
+            <p><strong>Author: Kesav Deepak</strong></p>
+        </div>
+    </body>
+    </html>
+</body>
+</html>
+```
 
 ## OUTPUT:
+![Screenshot 2024-04-28 162058](https://github.com/KesavDeepak/cover/assets/139336019/cc4aed4b-345d-4bf7-a859-62be19531870)
 
 
 ## RESULT:
